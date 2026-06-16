@@ -6,8 +6,8 @@ const teachers = [
     initials: "SB",
     color: "#D94F6B",
     location: "Pushp Vihar, Block C",
-    experience: "8 yrs",
-    fee: "₹1,200/mo",
+    experience: "12 yrs",
+    fee: "₹1600/mo",
     subjects: [
       { label: "Maths",   bg: "#EDE7F6", fg: "#6A3DB8" },
       { label: "Science", bg: "#E8F5E9", fg: "#2E7D32" },
@@ -39,8 +39,8 @@ const teachers = [
     initials: "NB",
     color: "#1565C0",
     location: "Pushp Vihar, Block B",
-    experience: "10 yrs",
-    fee: "₹1,400/mo",
+    experience: "19 yrs",
+    fee: "₹1500/mo",
     subjects: [
       { label: "Physics",   bg: "#E3F2FD", fg: "#1565C0" },
       { label: "Chemistry", bg: "#FFF3E0", fg: "#E65100" }
@@ -69,8 +69,8 @@ const teachers = [
     initials: "DD",
     color: "#2A7F7F",
     location: "Pushp Vihar, Block A",
-    experience: "12 yrs",
-    fee: "₹900/mo",
+    experience: "17 yrs",
+    fee: "₹1100/mo",
     subjects: [
       { label: "Maths", bg: "#EDE7F6", fg: "#6A3DB8" }
     ],
