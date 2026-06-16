@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TuitionMap Pushp Vihar — Find Your Teacher</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Tuition<span>Map</span></div>
+  <ul class="nav-links">
+    <li><a href="#teachers">Teachers</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="mailto:contact@tuitionmap.in">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-eyebrow">📍 Pushp Vihar · Saket · New Delhi 110017</div>
+  <h1>Find the right teacher,<br/><em>right in your neighbourhood</em></h1>
+  <p>TuitionMap connects Pushp Vihar parents with verified local tutors — browse subjects, check timings, download notes &amp; assignments.</p>
+  <div class="search-bar">
+    <input type="text" id="heroSearch" placeholder="Search by name, subject, or class…" oninput="filterTeachers()" />
+    <button onclick="filterTeachers()">Search</button>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num">4</div><div class="stat-label">Verified Teachers</div></div>
+    <div class="stat"><div class="stat-num">7+</div><div class="stat-label">Subjects Covered</div></div>
+    <div class="stat"><div class="stat-num">6–12</div><div class="stat-label">Classes</div></div>
+  </div>
+</section>
+
+<!-- FILTERS -->
+<div class="filters-section">
+  <span class="filters-label">Filter by</span>
+  <button class="filter-chip active" onclick="setFilter('all', this)">All Teachers</button>
+  <button class="filter-chip" onclick="setFilter('maths', this)">Maths</button>
+  <button class="filter-chip" onclick="setFilter('science', this)">Science</button>
+  <button class="filter-chip" onclick="setFilter('physics', this)">Physics</button>
+  <button class="filter-chip" onclick="setFilter('chemistry', this)">Chemistry</button>
+  <button class="filter-chip" onclick="setFilter('biology', this)">Biology</button>
+  <button class="filter-chip" onclick="setFilter('class 11', this)">Class 11–12</button>
+  <button class="filter-chip" onclick="setFilter('class 9', this)">Class 9–10</button>
+</div>
+
+<!-- HEADING -->
+<div class="section-heading" id="teachers">
+  <h2>Our Teachers</h2>
+  <span class="result-count" id="resultCount">4 teachers found</span>
+</div>
+
+<!-- GRID -->
+<div class="grid" id="teacherGrid"></div>
+<div class="no-results" id="noResults">
+  <h3>No teachers found</h3>
+  <p>Try a different subject or class filter.</p>
+</div>
+
+<!-- MODAL -->
+<div class="overlay" id="overlay" onclick="closeModal(event)">
+  <div class="modal" id="modal"></div>
+</div>
+
+<!-- FOOTER -->
+<footer id="about">
+  <p><strong>TuitionMap Pushp Vihar</strong> &nbsp;·&nbsp; Serving Pushp Vihar, Saket, New Delhi 110017</p>
+  <p style="margin-top:6px;">Helping parents find trusted local tutors since 2024 &nbsp;·&nbsp;
+    <a href="mailto:contact@tuitionmap.in" style="color:var(--saffron);text-decoration:none;">contact@tuitionmap.in</a>
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
