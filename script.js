@@ -63,68 +63,7 @@ const teachers = [
       { title: "Chemistry – Chemical Kinetics (Cl. 12)", due: "Due: 23 Jun 2025" }
     ]
   },
-  {
-    id: 3,
-    name: "Dinesh Chandra Das",
-    initials: "DD",
-    color: "#2A7F7F",
-    location: "Pushp Vihar, Block A",
-    experience: "17 yrs",
-    fee: "₹1100/mo",
-    subjects: [
-      { label: "Maths", bg: "#EDE7F6", fg: "#6A3DB8" }
-    ],
-    tags: ["maths","class 7","class 8","class 9","class 10","class 11"],
-    classes: "7–11",
-    phone: "98XXXX1103",
-    timings: [
-      { day: "Mon – Sat", subject: "Maths (Class 7 & 8)",  time: "4:00 PM – 5:00 PM" },
-      { day: "Mon – Sat", subject: "Maths (Class 9 & 10)", time: "5:00 PM – 6:30 PM" },
-      { day: "Mon – Sat", subject: "Maths (Class 11)",     time: "7:00 AM – 8:30 AM" }
-    ],
-    notes: [
-      { title: "Class 7 – Integers & Fractions",        desc: "50+ practice questions on integers, BODMAS and fractions."       },
-      { title: "Class 9 – Triangles",                   desc: "Congruence criteria (SSS, SAS, AAS, RHS) with theorem proofs."   },
-      { title: "Class 11 – Permutations & Combinations", desc: "Formula sheets with solved examples and shortcut techniques."   }
-    ],
-    assignments: [
-      { title: "Maths – Algebra (Cl. 8)",               due: "Due: 21 Jun 2025" },
-      { title: "Maths – Coordinate Geometry (Cl. 9)",   due: "Due: 24 Jun 2025" }
-    ]
-  },
-  {
-    id: 4,
-    name: "Ashutosh Kumar",
-    initials: "AK",
-    color: "#E65100",
-    location: "Pushp Vihar, Block D",
-    experience: "7 yrs",
-    fee: "₹1,300/mo",
-    subjects: [
-      { label: "Science",   bg: "#E8F5E9", fg: "#2E7D32" },
-      { label: "Physics",   bg: "#E3F2FD", fg: "#1565C0" },
-      { label: "Chemistry", bg: "#FFF3E0", fg: "#E65100" }
-    ],
-    tags: ["science","physics","chemistry","class 9","class 10","class 11","class 12"],
-    classes: "9–12",
-    phone: "98XXXX1104",
-    timings: [
-      { day: "Mon / Wed / Fri", subject: "Science (Class 9 & 10)",   time: "7:00 AM – 8:30 AM" },
-      { day: "Tue / Thu / Sat", subject: "Physics (Class 11 & 12)",  time: "6:00 AM – 7:30 AM" },
-      { day: "Tue / Thu / Sat", subject: "Chemistry (Class 11 & 12)",time: "4:30 PM – 6:00 PM"  }
-    ],
-    notes: [
-      { title: "Class 10 – Electricity",    desc: "Ohm's law, resistors in series/parallel, power and energy."           },
-      { title: "Class 11 – Thermodynamics", desc: "Laws of thermodynamics, entropy, Carnot engine with solved PYQs."     },
-      { title: "Class 12 – Optics",         desc: "Ray diagrams for lenses & mirrors, refraction and optical instruments." }
-    ],
-    assignments: [
-      { title: "Science – Light (Cl. 10)",       due: "Due: 18 Jun 2025" },
-      { title: "Physics – Waves (Cl. 11)",       due: "Due: 22 Jun 2025" },
-      { title: "Chemistry – Polymers (Cl. 12)",  due: "Due: 26 Jun 2025" }
-    ]
-  }
-];
+  
 
 /* ───── STATE ───── */
 let activeFilter = 'all';
